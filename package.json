@@ -1,0 +1,40 @@
+{
+  "name": "synquer",
+  "version": "2.0.0",
+  "description": "Synquer can be used for sync write calls to the same file.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "test-ci": "jest --detectOpenHandles --ci --coverage",
+    "build": "tsc --build",
+    "generate-testfiles": "node scripts/generate-testfiles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogilvieira/synquer.git"
+  },
+  "keywords": [
+    "queue",
+    "async",
+    "synquer",
+    "sync",
+    "write"
+  ],
+  "contributors": [
+    {
+      "name": "Gil Vieira",
+      "email": "ogilvieira@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogilvieira/synquer/issues"
+  },
+  "homepage": "https://github.com/ogilvieira/synquer#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
